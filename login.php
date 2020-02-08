@@ -1,14 +1,24 @@
+<?php
+session_start();
+if (!isset($_SESSION['app_token'])) {
+    $_SESSION['app_token'] = base64_encode(openssl_random_pseudo_bytes(32));
+} else {
+	unset($_SESSION['app_token']);
+	$_SESSION['app_token'] = base64_encode(openssl_random_pseudo_bytes(32));
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Login Admin</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="asset/login/images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="asset/login/images/icons/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="asset/login/vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="asset/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="asset/login/fonts/iconic/css/material-design-iconic-font.min.css">
-	<link rel="stylesheet" type="text/css" href="asset/login/vendor/animate/animate.css">	
+	<link rel="stylesheet" type="text/css" href="asset/login/vendor/animate/animate.css">
 	<link rel="stylesheet" type="text/css" href="asset/login/vendor/css-hamburgers/hamburgers.min.css">
 	<link rel="stylesheet" type="text/css" href="asset/login/vendor/animsition/css/animsition.min.css">
 	<link rel="stylesheet" type="text/css" href="asset/login/vendor/select2/select2.min.css">
@@ -16,8 +26,9 @@
 	<link rel="stylesheet" type="text/css" href="asset/login/css/util.css">
 	<link rel="stylesheet" type="text/css" href="asset/login/css/main.css">
 </head>
+
 <body>
-	
+
 	<div class="limiter">
 		<div class="container-login100" style="background:#eee;">
 			<div class="wrap-login100">
@@ -30,7 +41,7 @@
 						SISTEM INFORMASI AKADEMIK
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+					<div class="wrap-input100 validate-input" data-validate="Enter username">
 						<input class="input100" type="text" name="username" id="txtUsername" placeholder="Username">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
@@ -49,10 +60,10 @@
 			</div>
 		</div>
 	</div>
-	
+
 
 	<div id="dropDownSelect1"></div>
-	
+
 	<script src="asset/login/vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="asset/login/vendor/animsition/js/animsition.min.js"></script>
 	<script src="asset/login/vendor/bootstrap/js/popper.js"></script>
@@ -63,30 +74,47 @@
 	<script src="asset/login/vendor/countdowntime/countdowntime.js"></script>
 	<script src="asset/login/js/main.js"></script>
 	<script type="text/javascript">
-		$("#txtPassword").on("change", function(){
-			doLogin();
+		window.csrf = {
+			app_token: '<?= $_SESSION['app_token']; ?>'
+		};
+
+		$.ajaxSetup({
+			data: window.csrf
 		});
 
-		function doLogin(){
+		$("#txtPassword").on("keypress", function(e) {
+			if (e.which === 13) {
+				doLogin();
+			}
+		});
+
+		function doLogin() {
 			var uname = $("#txtUsername").val();
 			var paswd = $("#txtPassword").val();
 
-			$.post("controller/cekLogin.php",{
-				username: uname,
-				password: paswd
-			}, function(data){
-				
-				if(data.status === "invalid_login"){
-					alert("Username / Password salah...");
-				}else if(data.status === "not_exists"){
-					alert("Username not registered...");
-				}else{	
-					location.href = "index.php";
-				}
+			if (uname === "") {
+				alert("Username tidak boleh kosong!");
+			} else if (paswd === "") {
+				alert("Password tidak boleh kosong!");
+			} else {
+				$.post("controller/cekLogin.php", {
+					username: escape(uname),
+					password: escape(paswd)
+				}, function(data) {
 
-			}, "json");
+					if (data.status === "invalid_password") {
+						alert("Password salah...");
+					} else if (data.status === "not_exists") {
+						alert("Username tidak terdaftar");
+					} else {
+						location.href = "index.php";
+					}
+
+				}, "json");
+			}
 		}
 	</script>
 
 </body>
+
 </html>

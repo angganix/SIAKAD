@@ -1,39 +1,47 @@
 <?php
 session_name("siakad");
 require_once "../config/init.php";
-require_once "../model/Crud_basic.php";
+require_once "../model/autoload.php";
 
-$cls = new Crud_basic($db);
+$login  = new User($db);
+$akses  = new Akses_role($db);
 
-$username = isset($_POST['username']) ? $_POST['username'] : "";
-$password = isset($_POST['password']) ? md5($_POST['password']) : "";
+$username = isset($_POST['username']) ? cleanInput($_POST['username']) : "";
+$password = isset($_POST['password']) ? cleanInput($_POST['password']) : "";
 
-$getData  = $cls->getData("*", "admin", " username='$username' AND password='$password' ");
-$getCount = $cls->getCount("*", "admin", " username='$username' ");
+$login->clause  = "username=:username";
+$login->params  = [":username" => $username];
+$cekLogin = $login->cekLogin();
 
-$ret = array();
+$ret = [];
 
-if ($getCount['total_record'] == 0) {
-    $ret['status'] = "not_exists";
+if ($cekLogin['status'] === "not_found") {
+    $ret['status']  = "not_exists";
 } else {
-    if ($getData['username'] == "" or $getData['username'] == null) {
-        $ret['status'] = "invalid_login";
-    } else {
+    if (password_verify($password, $cekLogin['result']['password'])) {
         session_start();
-        
-        $_SESSION['id_user']  = $getData['id'];
-        $_SESSION['username'] = $getData['username'];
-        $_SESSION['password'] = $getData['password'];
-        $_SESSION['fullname'] = $getData['nama'];
+
+        $result               = $cekLogin['result'];
+        $_SESSION['id_user']  = $result['id'];
+        $_SESSION['username'] = $result['username'];
+        $_SESSION['fullname'] = $result['nama'];
 
         //Get Akses
-        $_SESSION['akses_role'] = array();
-        $get_akses = $cls->getArray("*","role_detail","id_role=".$getData['akses']);
-        foreach($get_akses as $val){
+        $_SESSION['akses_role'] = [];
+
+
+        $akses->clause  = "id_role=:id_role";
+        $akses->params  = [":id_role" => $result['akses']];
+        $result_akses   = $akses->getAll();
+
+        foreach ($result_akses['result'] as $val) {
             array_push($_SESSION['akses_role'], $val['role_akses']);
         }
 
         $ret['status'] = "completed";
+    } else {
+        $ret['status'] = "invalid_password";
+        $ret['data']   = $cekLogin['result'];
     }
 }
 

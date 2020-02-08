@@ -1,0 +1,270 @@
+[04-Feb-2020 23:54:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function quote() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:8
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin', 'angganix1409')
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 8
+[04-Feb-2020 23:54:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function quote() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:8
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin', 'angganix1409')
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 8
+[04-Feb-2020 23:55:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function quote() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:8
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin', 'angganix1409')
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 8
+[04-Feb-2020 23:56:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function quote() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:8
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin', 'angganix1409')
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 8
+[04-Feb-2020 23:57:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:168
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php(13): Model->get('admin')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin', 'angganix1409')
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 168
+[04-Feb-2020 23:59:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function quote() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:8
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin', 'angganix1409')
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 8
+[04-Feb-2020 23:59:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function quote() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:8
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin'#', 'angganix1409')
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 8
+[04-Feb-2020 23:59:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function quote() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:8
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin\\'#', 'angganix1409')
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 8
+[05-Feb-2020 00:01:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function quote() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:8
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin\\'#', 'angganix1409')
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 8
+[04-Feb-2020 17:16:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[04-Feb-2020 17:16:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[04-Feb-2020 17:17:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[04-Feb-2020 17:19:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[04-Feb-2020 17:22:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[04-Feb-2020 17:23:28 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 175
+[04-Feb-2020 17:23:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:175) in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php on line 20
+[04-Feb-2020 17:23:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[04-Feb-2020 17:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php:10
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php on line 10
+[04-Feb-2020 17:28:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php:10
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php on line 10
+[04-Feb-2020 17:29:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php:10
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php on line 10
+[04-Feb-2020 17:30:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php:10
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php on line 10
+[04-Feb-2020 17:31:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php:10
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php on line 10
+[04-Feb-2020 17:32:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php:10
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php on line 10
+[04-Feb-2020 17:33:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[04-Feb-2020 17:34:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[04-Feb-2020 17:34:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[04-Feb-2020 17:35:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[06-Feb-2020 14:58:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[06-Feb-2020 14:58:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:170
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 170
+[06-Feb-2020 15:00:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:181
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 181
+[06-Feb-2020 15:02:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php:181
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Akses_role.php(12): Model->get('role_detail')
+#1 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(34): Akses_role->getAll()
+#2 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 181
+[06-Feb-2020 15:06:07 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 186
+[06-Feb-2020 15:06:07 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 203
+[06-Feb-2020 15:06:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 79
+[06-Feb-2020 15:06:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/Model.php on line 79
+[07-Feb-2020 20:43:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:13
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(12): User->cekLogin('admin'#', '')
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 13
+[07-Feb-2020 20:45:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:13
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(14): User->cekLogin()
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 13
+[07-Feb-2020 20:45:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:13
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(14): User->cekLogin()
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 13
+[07-Feb-2020 20:47:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php:13
+Stack trace:
+#0 /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/cekLogin.php(14): User->cekLogin()
+#1 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/model/User.php on line 13
+[08-Feb-2020 01:01:12 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:01:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:01:22 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:01:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:01:47 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:01:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:06:24 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 98
+[08-Feb-2020 01:06:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:101
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 101
+[08-Feb-2020 01:06:53 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 98
+[08-Feb-2020 01:06:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:101
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 101
+[08-Feb-2020 01:07:06 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 98
+[08-Feb-2020 01:07:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:101
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 101
+[08-Feb-2020 01:08:04 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 98
+[08-Feb-2020 01:08:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:101
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 101
+[08-Feb-2020 01:12:59 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:12:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:13:25 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:13:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:14:49 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:14:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:15:27 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:15:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:17:08 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:17:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:21:42 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:21:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:23:56 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:23:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:24:17 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:24:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:24:45 Asia/Jakarta] PHP Warning:  Creating default object from empty value in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96
+[08-Feb-2020 01:24:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getAll() in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 99
+[08-Feb-2020 01:28:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function getAkses() on string in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/slbneger/siakad.slbnegeri5jakarta.sch.id/controller/data_administrator.php on line 96

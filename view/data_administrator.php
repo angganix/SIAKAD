@@ -141,22 +141,17 @@
 			data: "str_akses"
 		},
 		{
-			data: null,
+			data: "id",
 			className: "centerCol",
 			sortable: false,
-			defaultContent: "<button type='button' class='btn btn-info btn-xs btnEdit'><i class='fa fa-pencil fa-fw'></i></button> <button type='button' class='btn btn-danger btn-xs btnDel'><i class='fa fa-trash fa-fw'></i></button>"
+			render: function(data) {
+				return `
+					<button type='button' class='btn btn-info btn-xs btnEdit' onclick="edit(${data})"><i class='fa fa-pencil fa-fw'></i></button>
+					<button type='button' class='btn btn-danger btn-xs btnDel' onclick="del(${data})"><i class='fa fa-trash fa-fw'></i></button>
+				`;
+			}
 		}
 		]
-	});
-
-	$("#dataGrid tbody").on("click", ".btnEdit", function(){
-		var data = tabel.row($(this).parents("tr")).data();
-		edit(data[0]);
-	});
-
-	$("#dataGrid tbody").on("click", ".btnDel", function(){
-		var data = tabel.row($(this).parents("tr")).data();
-		del(data[0]);
 	});
 
 	function resetField(){

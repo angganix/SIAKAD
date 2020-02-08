@@ -6,6 +6,13 @@ if(!isset($_SESSION['username'])){
 	header("location:login.php");
 }
 
+if (!isset($_SESSION['app_token'])) {
+    $_SESSION['app_token'] = base64_encode(openssl_random_pseudo_bytes(32));
+} else {
+	unset($_SESSION['app_token']);
+	$_SESSION['app_token'] = base64_encode(openssl_random_pseudo_bytes(32));
+}
+
 
 ?>
 <!DOCTYPE html>
@@ -76,6 +83,12 @@ if(!isset($_SESSION['username'])){
 <script src="asset/dist/js/adminlte.min.js"></script>
 <script src="asset/tooltip.js"></script>
 <script src="asset/script.js?<?= microtime();?>"></script>
+<script>
+	window.csrf = {app_token: '<?= $_SESSION['app_token']; ?>'};
+	$.ajaxSetup({
+		data: window.csrf
+	});
+</script>
 
 </head>
 <body class="hold-transition skin-green sidebar-mini">
